@@ -1,0 +1,53 @@
+.add-review {
+    form {
+        background: #F5F5F5;
+        padding: 20px 0;
+        padding-right: 20px;
+        padding-left: 10px;
+        border: 1px dashed #CCCCCC;
+        margin: 5px 0;
+
+        #img_preview {
+            margin:15px 0;
+            display: none;
+            max-width: 320px;
+            max-height: 240px;
+        }
+
+        #add_img_reset {
+            display: none;
+            position: absolute;
+            top:0;
+            right: 20px;
+            color: red;
+            cursor: pointer;
+            &:hover {
+                color: #990000;
+            }
+        }
+        
+        .help-block {
+            color: red;
+        }
+
+        .btn-default {
+            width: 60%;
+            margin-right: 8.6%;
+        }
+
+        .btn-success {
+            width:30%;
+        }
+    }
+    
+    .preview-box {
+        display: none;
+        border: 1px dashed #CCCCCC;
+
+        #preview_box_content img {
+            display: none;
+            max-width: 320px;
+            max-height: 240px;
+        }
+    }
+}

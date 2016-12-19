@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {            
+            "Kirasin\\": "vendor/Kirasin/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Services\\": "services/",
+            "Widgets\\": "widgets/",
+            "Views\\": "views/"
+        }
+    }
+
+}
